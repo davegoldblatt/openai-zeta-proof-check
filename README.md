@@ -1,26 +1,30 @@
 # Independent check of OpenAI's Lean proof that ζ(s) ≠ 0 for Re(s) > 7/8
 
-## In plain English
+## The short version
 
-OpenAI published a computer-checked proof about the Riemann zeta function, a central object in number
-theory. The proof says the function has no zeros whose real part is greater than 7/8. The famous Riemann
-Hypothesis says all its nontrivial zeros have real part exactly 1/2. Mathematicians proved long ago that there
-are none with real part 1 or more. As far as we know, no strip to the left of 1 had been ruled out before
-OpenAI's work on this problem. If correct, this result rules out the strip between 7/8 and 1. That is a real
-step toward the Riemann Hypothesis, though far from a proof of it, and it sharpens what can be proven about how
-the prime numbers are spread out.
+OpenAI recently published a proof, produced with one of its AI models, of something mathematicians have been
+stuck on for over a century. We wanted to know whether it actually holds up, so we checked it ourselves.
 
-The proof is written in Lean, a programming language for mathematics. In Lean, a small trusted program called
-the kernel checks every logical step. OpenAI's proof is large: about 2,900 files and 486,000 lines.
+Some background. The Riemann zeta function is one of the most important objects in math, mostly because it
+quietly encodes how the prime numbers are spread out. The Riemann Hypothesis, one of the most famous unsolved
+problems anywhere, says all of the function's interesting zeros sit on a single line, at real part 1/2. Nobody
+has proven that. For over 100 years, the best anyone managed was to rule out zeros at real part 1 and in a
+sliver just to the left of it, a sliver that keeps getting thinner the higher you go.
 
-We re-ran the official check from OpenAI's public code, on our own machine. Lean's checker accepted the proof.
-We then wrote our own copy of the statement, to confirm the proof proves exactly what it claims, and had a
-second, independently written checker go through every step. Both checkers accepted it. The proof relies only on
-the three standard axioms that ordinary mathematics in Lean uses, and on no shortcuts that skip checking.
+OpenAI's claim pushes much further: no zeros anywhere past 7/8. That doesn't prove the Riemann Hypothesis, but
+it's a real step toward it. As far as we know, nobody had ruled out a strip like this before OpenAI's work on it.
 
-What this means: unless both checkers have the same bug, the statement as written in Lean's standard math
-library is proven. What it does not mean: this is not a review of OpenAI's accompanying paper, and it was run by one
-operator on one machine, so independent reproductions would add weight.
+The proof is written in Lean, a language where a computer checks every single logical step, so you don't have
+to take anyone's word for it. It's huge: about 2,900 files and close to half a million lines.
+
+So we ran the check. Lean's own checker accepted the proof. Then, to be extra careful, we wrote the statement
+out ourselves, so we knew exactly what was being proven. We also had a second checker, written independently in
+a different programming language, go through the whole thing. It accepted the proof too. And the proof leans
+only on the standard ground rules that ordinary math uses. No shortcuts, no skipped steps.
+
+Bottom line: unless both checkers are broken in the same way, the proof checks out. Two caveats. We didn't
+review OpenAI's written paper, only the computer proof. And it was just us, on one machine. The more people who
+reproduce it independently, the better, and everything you need to do that is in this repo.
 
 ## The details
 
