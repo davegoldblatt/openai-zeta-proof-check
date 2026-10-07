@@ -1,0 +1,4 @@
+Container seccomp = Docker's upstream default profile (moby/profiles main) with these rule changes:
+REMOVED: {"action": "SCMP_ACT_ALLOW", "args": [{"index": 0, "op": "SCMP_CMP_LT", "value": 3}], "names": ["socket"]}
+ADDED:   {"action": "SCMP_ACT_ALLOW", "args": [{"index": 0, "op": "SCMP_CMP_EQ", "value": 0}], "names": ["socket"]}
+ADDED:   {"action": "SCMP_ACT_ALLOW", "args": [{"index": 0, "op": "SCMP_CMP_EQ", "value": 2}], "names": ["socket"]}

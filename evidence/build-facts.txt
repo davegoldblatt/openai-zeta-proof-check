@@ -1,0 +1,6 @@
+modules=2924 total_lines=486490
+--- compiled-output timestamps (file mtimes, UTC):
+first output of run 1 (dependency file): 23:29:34.2182650060 packages/rellich-kondrachov/.lake/build/
+first OAI file of run 2: 23:36:17 (log says it took 4.0s)
+last file (Nonvanishing.olean): 00:34:38
+OAI oleans older than the 23:34:02 pause: 136, newer: 2788

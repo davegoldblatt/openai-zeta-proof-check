@@ -1,0 +1,102 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 3.71kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for public.ecr.aws/docker/library/ubuntu:24.04
+#2 DONE 0.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [ 1/10] FROM public.ecr.aws/docker/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve public.ecr.aws/docker/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#4 DONE 0.0s
+
+#5 [ 2/10] RUN apt-get update  && apt-get install -y --no-install-recommends       git curl ca-certificates zstd xz-utils procps time file python3  && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [ 3/10] RUN curl -sSfL "https://raw.githubusercontent.com/leanprover/elan/v4.2.4/elan-init.sh" -o /tmp/elan-init.sh  && sh /tmp/elan-init.sh -y --no-modify-path --default-toolchain leanprover/lean4:v4.34.1  && rm /tmp/elan-init.sh  && /opt/elan/bin/elan toolchain install leanprover/lean4:v4.34.1  && ls -la /opt/elan/toolchains/  && /opt/elan/toolchains/leanprover--lean4---v4.34.1/bin/lean --version  && /opt/elan/toolchains/leanprover--lean4---v4.34.1/bin/lake --version  && chmod -R a+rX,go-w /opt/elan
+#6 0.133 info: downloading installer
+#6 0.667 info: default toolchain set to 'leanprover/lean4:v4.34.1'
+#6 1.186 info: downloading https://releases.lean-lang.org/lean4/v4.34.1/lean-4.34.1-linux_aarch64.tar.zst
+#6 35.47 info: installing /opt/elan/toolchains/leanprover--lean4---v4.34.1
+#6 41.70 
+#6 41.74 leanprover/lean4:v4.34.1 installed - Lean (version 4.34.1, aarch64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+#6 41.74 
+#6 41.75 total 12
+#6 41.75 drwxr-xr-x 3 root root 4096 Oct  6 23:08 .
+#6 41.75 drwxr-xr-x 5 root root 4096 Oct  6 23:07 ..
+#6 41.75 drwxr-xr-x 7 root root 4096 Oct  6 23:08 leanprover--lean4---v4.34.1
+#6 41.77 Lean (version 4.34.1, aarch64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+#6 41.79 Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)
+#6 DONE 43.6s
+
+#7 [ 4/10] RUN curl -sSfL "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz" -o /tmp/go.tgz  && echo "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec  /tmp/go.tgz" | sha256sum -c -  && tar -C /usr/local -xzf /tmp/go.tgz  && rm /tmp/go.tgz
+#7 3.219 /tmp/go.tgz: OK
+#7 DONE 4.9s
+
+#8 [ 5/10] RUN useradd -m -u 1001 -s /bin/bash builder  && useradd -m -u 1002 -s /bin/bash verifier  && install -d -o verifier -g verifier /home/verifier/work
+#8 DONE 0.2s
+
+#9 [ 6/10] WORKDIR /home/builder
+#9 DONE 0.0s
+
+#10 [ 7/10] RUN git clone https://github.com/Zouuup/landrun.git  && cd landrun  && git checkout --detach "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4"  && test "$(git rev-parse HEAD)" = "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4"  && test "$(git rev-parse origin/main)" = "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4"  && GOPATH=/home/builder/go GOCACHE=/home/builder/.cache/go-build GOFLAGS=-mod=readonly go build -o landrun ./cmd/landrun
+#10 0.137 Cloning into 'landrun'...
+#10 0.899 HEAD is now at 811cfff Update README.md
+#10 0.906 go: downloading github.com/urfave/cli/v3 v3.6.2
+#10 0.906 go: downloading github.com/landlock-lsm/go-landlock v0.9.0
+#10 1.021 go: downloading kernel.org/pub/linux/libs/security/libcap/psx v1.2.77
+#10 1.022 go: downloading golang.org/x/sys v0.40.0
+#10 DONE 4.0s
+
+#11 [ 8/10] RUN git clone https://github.com/leanprover/comparator.git  && cd comparator  && git checkout --detach "d03acab154d269c06e60e4de7e4cc85deebff94b"  && test "$(git rev-parse HEAD)" = "d03acab154d269c06e60e4de7e4cc85deebff94b"  && test "$(git rev-parse 'v4.34.0^{commit}')" = "d03acab154d269c06e60e4de7e4cc85deebff94b"  && grep -q ""rev": "076e8e57707e813375e8f9da8bf989799ace9680"" lake-manifest.json  && echo "leanprover/lean4:v4.34.1" > lean-toolchain  && lake build lean4export comparator  && test "$(git -C .lake/packages/lean4export rev-parse HEAD)" = "076e8e57707e813375e8f9da8bf989799ace9680"
+#11 0.119 Cloning into 'comparator'...
+#11 0.702 HEAD is now at d03acab chore: bump toolchain to v4.34.0 (#90)
+#11 0.737 info: lean4export: cloning https://github.com/leanprover/lean4export
+#11 2.218 info: lean4export: checking out revision '076e8e57707e813375e8f9da8bf989799ace9680'
+#11 4.675 ✔ [4/21] Built Comparator.Util (1.8s)
+#11 4.877 ✔ [5/21] Built Comparator.Util:c.o (152ms)
+#11 5.582 ✔ [6/21] Built Export.Parse (2.7s)
+#11 5.883 ✔ [7/21] Built Comparator.Axioms (280ms)
+#11 6.084 ✔ [8/21] Built Comparator.Axioms:c.o (177ms)
+#11 6.185 ✔ [9/21] Built Export (3.3s)
+#11 6.185 ✔ [10/21] Built Comparator.Compare (298ms)
+#11 6.285 ✔ [11/21] Built Comparator (167ms)
+#11 6.386 ✔ [12/21] Built Comparator.Compare:c.o (239ms)
+#11 6.386 ✔ [13/21] Built Comparator:c.o (31ms)
+#11 6.689 ✔ [14/21] Built Main (566ms)
+#11 6.789 ✔ [15/21] Built Main:c.o (107ms)
+#11 7.195 ✔ [16/21] Built Main (860ms)
+#11 7.712 ✔ [17/21] Built Export:c.o (1.5s)
+#11 7.712 ✔ [18/21] Built Main:c.o (519ms)
+#11 7.712 ✔ [19/21] Built Export.Parse:c.o (2.1s)
+#11 9.632 ✔ [20/21] Built comparator:exe (1.9s)
+#11 9.734 ✔ [21/21] Built lean4export:exe (2.1s)
+#11 9.735 Build completed successfully (21 jobs).
+#11 DONE 10.0s
+
+#12 [ 9/10] RUN install -m 0755 -o root -g root /home/builder/landrun/landrun /usr/local/bin/landrun  && install -m 0755 -o root -g root /home/builder/comparator/.lake/build/bin/comparator /usr/local/bin/comparator  && install -m 0755 -o root -g root /home/builder/comparator/.lake/packages/lean4export/.lake/build/bin/lean4export /usr/local/bin/lean4export
+#12 DONE 0.4s
+
+#13 [10/10] WORKDIR /home/verifier/work
+#13 DONE 0.0s
+
+#14 exporting to image
+#14 exporting layers
+#14 exporting layers 91.4s done
+#14 exporting manifest sha256:35924fadb08cc9c61f4f62e23036b7278f30c38ce25386e367c7cd8d19987376 done
+#14 exporting config sha256:f723f164ac8ab03d09efe2412d1c6fe0857bc7cf8fcddf75b985c2ac60dada54 done
+#14 exporting attestation manifest sha256:fa259660796637e3bd312e04e1cb3ed4590a97f81672f9ef704abe330eff474e done
+#14 exporting manifest list sha256:292a1b86bbf2e5a9f6f7f44a7d40294e35480693685145578080becf3aed6230 done
+#14 naming to docker.io/library/qrh-verify:1 done
+#14 unpacking to docker.io/library/qrh-verify:1
+#14 unpacking to docker.io/library/qrh-verify:1 14.5s done
+#14 DONE 106.0s
+real 169.97
+user 0.21
+sys 0.26
+exit=0

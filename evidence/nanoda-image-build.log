@@ -1,0 +1,201 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 868B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/qrh-verify:1
+#2 DONE 0.0s
+
+#3 [internal] load metadata for public.ecr.aws/docker/library/rust:1
+#3 DONE 1.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [stage-1 1/4] FROM docker.io/library/qrh-verify:1@sha256:292a1b86bbf2e5a9f6f7f44a7d40294e35480693685145578080becf3aed6230
+#5 resolve docker.io/library/qrh-verify:1@sha256:292a1b86bbf2e5a9f6f7f44a7d40294e35480693685145578080becf3aed6230 done
+#5 DONE 0.1s
+
+#6 [nanoda 1/2] FROM public.ecr.aws/docker/library/rust:1@sha256:6ff07edce8775d0f64be7aba9197229407301bddf2054d62c27b541a6238a181
+#6 resolve public.ecr.aws/docker/library/rust:1@sha256:6ff07edce8775d0f64be7aba9197229407301bddf2054d62c27b541a6238a181 done
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 0B / 227.07MB 0.2s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 0B / 187.52MB 0.2s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 0B / 67.62MB 0.2s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 0B / 25.04MB 0.2s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 12.58MB / 227.07MB 0.6s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 30.41MB / 227.07MB 1.1s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 10.49MB / 187.52MB 1.1s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 47.19MB / 227.07MB 1.5s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 2.10MB / 25.04MB 1.4s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 4.19MB / 25.04MB 1.7s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 61.24MB / 227.07MB 2.0s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 19.92MB / 187.52MB 1.8s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 6.29MB / 25.04MB 2.0s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 74.45MB / 227.07MB 2.4s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 4.19MB / 67.62MB 2.3s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 8.39MB / 25.04MB 2.4s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 29.36MB / 187.52MB 2.6s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 89.13MB / 227.07MB 2.9s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 10.49MB / 25.04MB 2.7s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 101.71MB / 227.07MB 3.2s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 38.80MB / 187.52MB 3.2s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 12.58MB / 25.04MB 3.2s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 115.34MB / 227.07MB 3.6s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 15.73MB / 25.04MB 3.6s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 128.97MB / 227.07MB 4.1s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 48.23MB / 187.52MB 3.9s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 8.39MB / 67.62MB 3.9s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 17.83MB / 25.04MB 4.1s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 143.65MB / 227.07MB 4.5s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 19.92MB / 25.04MB 4.5s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 156.24MB / 227.07MB 4.8s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 59.77MB / 187.52MB 4.7s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 22.02MB / 25.04MB 4.7s
+#6 sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 25.04MB / 25.04MB 5.0s done
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 170.92MB / 227.07MB 5.3s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 12.58MB / 67.62MB 5.1s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 0B / 49.76MB 0.2s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 182.45MB / 227.07MB 5.6s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 70.25MB / 187.52MB 5.4s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 196.08MB / 227.07MB 6.0s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 79.69MB / 187.52MB 6.0s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 3.15MB / 49.76MB 1.1s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 207.62MB / 227.07MB 6.3s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 16.78MB / 67.62MB 6.2s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 6.29MB / 49.76MB 1.4s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 219.15MB / 227.07MB 6.8s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 89.13MB / 187.52MB 6.6s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 9.44MB / 49.76MB 1.8s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 20.97MB / 67.62MB 6.9s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 98.57MB / 187.52MB 7.1s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 12.58MB / 49.76MB 2.1s
+#6 sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 227.07MB / 227.07MB 7.3s done
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 109.05MB / 187.52MB 7.5s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 16.78MB / 49.76MB 2.4s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 25.17MB / 67.62MB 7.5s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 118.49MB / 187.52MB 7.8s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 20.97MB / 49.76MB 2.7s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 29.36MB / 67.62MB 8.0s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 25.17MB / 49.76MB 3.0s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 133.17MB / 187.52MB 8.3s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 28.31MB / 49.76MB 3.2s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 33.55MB / 67.62MB 8.3s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 33.55MB / 49.76MB 3.5s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 146.80MB / 187.52MB 8.7s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 37.75MB / 67.62MB 8.7s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 37.75MB / 49.76MB 3.8s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 157.29MB / 187.52MB 9.0s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 41.94MB / 49.76MB 3.9s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 41.94MB / 67.62MB 9.0s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 47.19MB / 49.76MB 4.2s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 175.11MB / 187.52MB 9.5s
+#6 sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 49.76MB / 49.76MB 4.4s done
+#6 extracting sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 48.23MB / 67.62MB 9.5s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 186.65MB / 187.52MB 9.8s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 53.45MB / 67.62MB 9.8s
+#6 sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 187.52MB / 187.52MB 10.0s done
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 60.82MB / 67.62MB 10.1s
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 67.62MB / 67.62MB 10.4s
+#6 extracting sha256:df9831efb49cab24dec437e8482f2a9ddbd9e239131fa3ffe095dc1492081e1d 1.1s done
+#6 sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 67.62MB / 67.62MB 10.5s done
+#6 extracting sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b
+#6 extracting sha256:86f385aa2c76a7dd234ab579740a6011f59b0284b9e77b56b88dfad43c2fd58b 0.3s done
+#6 DONE 10.9s
+
+#6 [nanoda 1/2] FROM public.ecr.aws/docker/library/rust:1@sha256:6ff07edce8775d0f64be7aba9197229407301bddf2054d62c27b541a6238a181
+#6 extracting sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c
+#6 extracting sha256:a7f73cdbf7c744c3331ef0185e57129804983040b8484e91af064b3bfa14750c 1.5s done
+#6 DONE 12.3s
+
+#6 [nanoda 1/2] FROM public.ecr.aws/docker/library/rust:1@sha256:6ff07edce8775d0f64be7aba9197229407301bddf2054d62c27b541a6238a181
+#6 extracting sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5
+#6 extracting sha256:21752e08707a6638705993e6bfb3c10ca133b961f244150e94fd5cdc80a02ce5 3.6s done
+#6 extracting sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91
+#6 extracting sha256:649254b65936b6ea698331952866a9a87b887e5e010b496e1f65e859d5a5ab91 3.4s done
+#6 DONE 19.3s
+
+#7 [nanoda 2/2] RUN git clone https://github.com/ammkrn/nanoda_lib.git /src/nanoda_lib  && cd /src/nanoda_lib  && git checkout --detach "3a2407216ee84a75f9e1aead6803d0578be06ae7"  && test "$(git rev-parse HEAD)" = "3a2407216ee84a75f9e1aead6803d0578be06ae7"  && test "$(git rev-parse origin/master)" = "3a2407216ee84a75f9e1aead6803d0578be06ae7"  && rustc --version && cargo --version  && cargo build --release --locked
+#7 0.268 Cloning into '/src/nanoda_lib'...
+#7 2.337 HEAD is now at 3a24072 Merge pull request #34 from scottdhughes/fix/pretty-printer-binder-prefix
+#7 2.361 rustc 1.99.0 (b940084d7 2026-09-28)
+#7 2.372 cargo 1.99.0 (5f94df478 2026-08-27)
+#7 2.423     Updating crates.io index
+#7 2.656  Downloading crates ...
+#7 2.741   Downloaded autocfg v1.1.0
+#7 2.743   Downloaded equivalent v1.0.1
+#7 2.762   Downloaded cfg-if v1.0.0
+#7 2.771   Downloaded itoa v1.0.15
+#7 2.773   Downloaded rustc-hash v1.1.0
+#7 2.780   Downloaded semver v1.0.27
+#7 2.784   Downloaded quote v1.0.35
+#7 2.787   Downloaded rand_core v0.10.1
+#7 2.788   Downloaded num-integer v0.1.47
+#7 2.789   Downloaded num-traits v0.2.19
+#7 2.792   Downloaded unicode-ident v1.0.12
+#7 2.795   Downloaded proc-macro2 v1.0.103
+#7 2.798   Downloaded serde_derive v1.0.228
+#7 2.801   Downloaded getrandom v0.4.3
+#7 2.809   Downloaded ryu v1.0.20
+#7 2.814   Downloaded serde_core v1.0.228
+#7 2.818   Downloaded serde_json v1.0.145
+#7 2.826   Downloaded chacha20 v0.10.2
+#7 2.828   Downloaded rand v0.10.2
+#7 2.832   Downloaded serde v1.0.228
+#7 2.835   Downloaded memchr v2.7.6
+#7 2.842   Downloaded indexmap v2.13.0
+#7 2.909   Downloaded num-bigint v0.5.1
+#7 2.920   Downloaded hashbrown v0.16.1
+#7 2.946   Downloaded syn v2.0.111
+#7 2.996   Downloaded libc v0.2.180
+#7 3.084    Compiling proc-macro2 v1.0.103
+#7 3.084    Compiling unicode-ident v1.0.12
+#7 3.084    Compiling serde_core v1.0.228
+#7 3.085    Compiling autocfg v1.1.0
+#7 3.087    Compiling serde v1.0.228
+#7 3.087    Compiling serde_json v1.0.145
+#7 3.091    Compiling hashbrown v0.16.1
+#7 3.091    Compiling ryu v1.0.20
+#7 3.091    Compiling equivalent v1.0.1
+#7 3.092    Compiling memchr v2.7.6
+#7 3.094    Compiling itoa v1.0.15
+#7 3.095    Compiling semver v1.0.27
+#7 3.447    Compiling rustc-hash v1.1.0
+#7 3.777    Compiling num-traits v0.2.19
+#7 3.970    Compiling indexmap v2.13.0
+#7 4.002    Compiling quote v1.0.35
+#7 4.082    Compiling syn v2.0.111
+#7 4.218    Compiling num-integer v0.1.47
+#7 4.764    Compiling serde_derive v1.0.228
+#7 6.023    Compiling num-bigint v0.5.1
+#7 6.715    Compiling nanoda_lib v0.4.19 (/src/nanoda_lib)
+#7 15.11     Finished `release` profile [optimized] target(s) in 12.73s
+#7 DONE 16.8s
+
+#8 [stage-1 2/4] COPY --from=nanoda /src/nanoda_lib/target/release/nanoda_bin /usr/local/bin/nanoda_bin
+#8 DONE 0.1s
+
+#9 [stage-1 3/4] RUN chown root:root /usr/local/bin/nanoda_bin && chmod 0755 /usr/local/bin/nanoda_bin  && ldd /usr/local/bin/nanoda_bin
+#9 0.318 	linux-vdso.so.1 (0x0000ffffaf48e000)
+#9 0.318 	libgcc_s.so.1 => /lib/aarch64-linux-gnu/libgcc_s.so.1 (0x0000ffffaf2e0000)
+#9 0.318 	libc.so.6 => /lib/aarch64-linux-gnu/libc.so.6 (0x0000ffffaf120000)
+#9 0.318 	/lib/ld-linux-aarch64.so.1 (0x0000ffffaf440000)
+#9 DONE 0.3s
+
+#10 [stage-1 4/4] WORKDIR /home/verifier/work
+#10 DONE 0.1s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.2s done
+#11 exporting manifest sha256:74892e0e566ebaab4748087029083308b4b82ff6d96ae9761ed3982d157a2b65 0.0s done
+#11 exporting config sha256:80bde4aa03e1b62bf2625319f9e5d42261a191fa4844dabd8054d7d044ac0c40 0.0s done
+#11 exporting attestation manifest sha256:be9b7dac547a148e6f6ff64bf2afbf41a58830f35e610a520e9170e5b8617313 0.0s done
+#11 exporting manifest list sha256:7b027d2c76e71a01e71a90d261ec8bb0004ce8d2e057f31656b486c4c7cc5166
+#11 exporting manifest list sha256:7b027d2c76e71a01e71a90d261ec8bb0004ce8d2e057f31656b486c4c7cc5166 done
+#11 naming to docker.io/library/qrh-verify:2 done
+#11 unpacking to docker.io/library/qrh-verify:2 0.1s done
+#11 DONE 0.4s
+exit=0

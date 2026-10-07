@@ -1,0 +1,2 @@
+cgroup peak=5368709120 swap_peak=2695168
+max 27627 oom 0 oom_kill 0 

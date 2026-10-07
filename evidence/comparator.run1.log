@@ -1,0 +1,230 @@
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+Building ComparatorChallenges.QuasiRiemannHypothesis
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+⚠ [8924/8924] Replayed ComparatorChallenges.QuasiRiemannHypothesis
+warning: ComparatorChallenges/QuasiRiemannHypothesis.lean:5:8: declaration uses `sorry`
+Build completed successfully (8924 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.riemannZeta_ne_zero_of_seven_eighths_lt_re, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ComparatorChallenges.QuasiRiemannHypothesis
+Building OAI.NumberTheory.DirichletL.Nonvanishing
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+✔ [4070/4236] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.H1 (10s)
+✔ [4071/4236] Built OAI.NumberTheory.DirichletL.Arithmetic.EisensteinCoordinates (12s)
+✔ [4072/4236] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimate (2.5s)
+✔ [4073/4236] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Translation (2.0s)
+✔ [4074/4236] Built OAI.NumberTheory.DirichletL.GaussSum.ChineseRemainder (4.2s)
+✔ [4075/4239] Built OAI.NumberTheory.DirichletL.Arithmetic.EisensteinIdeals (4.2s)
+✔ [4076/4239] Built OAI.NumberTheory.DirichletL.Mellin.ExponentialSmoothing (3.9s)
+✔ [4077/4239] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateL2 (2.9s)
+✔ [4078/4239] Built RellichKondrachov.MeasureTheory.Function.LpSpace.Restrict (2.3s)
+✔ [4079/4243] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.TranslationEstimateH1 (2.7s)
+✔ [4080/4244] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Smoothing (1.9s)
+✔ [4081/4247] Built OAI.NumberTheory.DirichletL.Mellin.LogProfiles (7.7s)
+✔ [4082/4247] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Compactness (1.7s)
+✔ [4083/4248] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Kernels (1.6s)
+✔ [4084/4248] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Approximation (3.6s)
+✔ [4085/4248] Built OAI.NumberTheory.DirichletL.ChineseRemainder.AdditiveCharacters (3.4s)
+✔ [4086/4249] Built OAI.NumberTheory.DirichletL.GaussSum.FiniteFourier (4.6s)
+✔ [4087/4250] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.TranslationIntegral (2.3s)
+✔ [4088/4250] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.ArzelaAscoli (3.1s)
+✔ [4089/4250] Built OAI.NumberTheory.DirichletL.Arithmetic.EisensteinEmbedding (3.7s)
+✔ [4090/4251] Built OAI.NumberTheory.DirichletL.Cusp.MatrixPhases (6.1s)
+✔ [4091/4252] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.Transfer (3.3s)
+✔ [4092/4253] Built OAI.NumberTheory.DirichletL.Fourier.PositiveLogProfiles (5.0s)
+✔ [4093/4254] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.L2Compactness.FrechetKolmogorov (2.0s)
+✔ [4094/4255] Built OAI.NumberTheory.DirichletL.GaussSum.CubicNormalization (3.3s)
+✔ [4095/4256] Built OAI.NumberTheory.DirichletL.GaussSum.SexticNormalization (3.4s)
+✔ [4096/4267] Built RellichKondrachov.Analysis.FunctionalSpaces.Sobolev.Euclidean.Rellich (4.7s)
+✔ [4097/4376] Built OAI.NumberTheory.DirichletL.GaussSum.LocalProductAssembly (2.9s)
+✔ [4098/4376] Built OAI.NumberTheory.DirichletL.Moments.Correlation (2.0s)
+✔ [4099/4376] Built OAI.NumberTheory.DirichletL.Moments.CRT (1.9s)
+✔ [4100/4376] Built OAI.NumberTheory.DirichletL.GaussSum.RamifiedTracePhase (2.8s)
+✔ [4101/4378] Built OAI.NumberTheory.DirichletL.Moments.PrimePower (1.9s)
+✔ [4102/4382] Built OAI.NumberTheory.DirichletL.Moments.FullCorrelation (1.7s)
+✔ [4103/4382] Built OAI.NumberTheory.DirichletL.Arithmetic.LatticeCount (3.6s)
+✔ [4104/4386] Built OAI.NumberTheory.DirichletL.Moments.Basic (1.8s)
+✔ [4105/4389] Built OAI.NumberTheory.DirichletL.GaussSum.QuadraticTrace (2.7s)
+✔ [4106/4395] Built OAI.NumberTheory.DirichletL.ThetaProduct (5.2s)
+✔ [4107/4395] Built OAI.NumberTheory.DirichletL.EisensteinTheta (2.6s)
+✔ [4108/4395] Built OAI.NumberTheory.DirichletL.Detector.Compensation (1.5s)
+✔ [4109/4395] Built OAI.NumberTheory.DirichletL.GaussSum.QuadraticNormalization (8.6s)
+✔ [4110/4395] Built OAI.NumberTheory.DirichletL.Hecke.Theta (3.7s)
+✔ [4111/4410] Built OAI.NumberTheory.DirichletL.Hecke.Family (3.4s)
+✔ [4112/4410] Built OAI.NumberTheory.DirichletL.FiniteFourier (3.1s)
+✔ [4113/4410] Built OAI.NumberTheory.DirichletL.Poisson.BinaryGaussian (9.9s)
+✔ [4114/4410] Built OAI.NumberTheory.DirichletL.FiniteConductor (2.2s)
+✔ [4115/4410] Built OAI.NumberTheory.DirichletL.CharacterTransport (2.3s)
+✔ [4116/4410] Built OAI.NumberTheory.DirichletL.GaussSum.GaussianDualLimit (5.6s)
+✔ [4117/4410] Built OAI.NumberTheory.DirichletL.ConductorBounds (2.4s)
+✔ [4118/4410] Built OAI.NumberTheory.DirichletL.ConductorPresentation (2.1s)
+✔ [4119/4411] Built OAI.NumberTheory.DirichletL.ResidueCharacter (2.2s)
+✔ [4120/4411] Built OAI.NumberTheory.DirichletL.GaussSum.GaussianFiberMass (6.0s)
+✔ [4122/4423] Built OAI.NumberTheory.DirichletL.Hecke.Operations (1.0s)
+✔ [4132/4428] Built OAI.NumberTheory.DirichletL.Supremum (1.1s)
+✔ [4133/4433] Built OAI.NumberTheory.DirichletL.Poisson.GaussianMoments (3.0s)
+✔ [4135/4433] Built OAI.NumberTheory.DirichletL.Continuation (1.7s)
+✔ [4136/4433] Built OAI.NumberTheory.DirichletL.Hecke.Coordinates (2.1s)
+✔ [4137/4433] Built OAI.NumberTheory.DirichletL.Poisson.OscillatoryGaussian (2.7s)
+✔ [4138/4433] Built OAI.NumberTheory.DirichletL.LatticeSummability (1.9s)
+✔ [4139/4433] Built OAI.NumberTheory.DirichletL.IdealCharacter (2.1s)
+✔ [4140/4434] Built OAI.NumberTheory.DirichletL.Hecke.CharacterAnalytic (2.1s)
+✔ [4141/4436] Built OAI.NumberTheory.DirichletL.Hecke.ThetaSeries (1.7s)
+✔ [4142/4442] Built OAI.NumberTheory.DirichletL.PrimeRows.RationalApproximation (3.7s)
+✔ [4143/4457] Built OAI.NumberTheory.DirichletL.Hecke.FamilySeries (1.8s)
+✔ [4144/4469] Built OAI.NumberTheory.DirichletL.Detector.Gauss (1.8s)
+✔ [4145/4527] Built OAI.NumberTheory.DirichletL.EulerFactors (1.5s)
+✔ [4146/4546] Built OAI.NumberTheory.DirichletL.GaussSum.AbelPhaseLimit (5.3s)
+✔ [4147/4550] Built OAI.NumberTheory.DirichletL.RayOrthogonality (2.2s)
+✔ [4148/4563] Built OAI.NumberTheory.DirichletL.Hecke.MellinIdentity (1.5s)
+✔ [4153/4563] Built PrimeNumberTheoremAnd.SmoothExistence (1.5s)
+✔ [4154/4563] Built OAI.NumberTheory.DirichletL.GaussSum.ThetaLocalRows (6.1s)
+✔ [4156/4565] Built PrimeNumberTheoremAnd.Sobolev (3.4s)
+✔ [4157/4565] Built OAI.NumberTheory.DirichletL.Mellin.LocalNonvanishing (2.7s)
+✔ [4158/4565] Built PrimeNumberTheoremAnd.Fourier (1.9s)
+✔ [4159/4565] Built OAI.NumberTheory.DirichletL.RayQuotient (2.1s)
+✔ [4160/4569] Built OAI.NumberTheory.DirichletL.Arithmetic.NormFiberMellin (2.9s)
+✔ [4161/4571] Built OAI.NumberTheory.DirichletL.Hecke.NormFiberCharacters (5.0s)
+✔ [4162/4571] Built PrimeNumberTheoremAnd.Wiener (8.3s)
+✔ [4163/4571] Built OAI.NumberTheory.DirichletL.PrimeCounting.Progressions (2.0s)
+✔ [4164/4571] Built OAI.NumberTheory.DirichletL.Hecke.LocalEulerIdentities (4.9s)
+✔ [4165/4589] Built OAI.NumberTheory.DirichletL.PrimeCounting.PrimeMass (1.9s)
+✔ [4166/4589] Built OAI.NumberTheory.DirichletL.CubicSieve.Algebra (1.5s)
+✔ [4167/4592] Built OAI.NumberTheory.DirichletL.Hecke.PrimeExtraction (2.8s)
+✔ [4168/4592] Built OAI.NumberTheory.DirichletL.CubicSieve.Factorization (1.1s)
+✔ [4169/4592] Built OAI.NumberTheory.DirichletL.PrimeRows.NormFiberExtraction (2.0s)
+✔ [4170/4600] Built OAI.NumberTheory.DirichletL.Mellin.FiniteEulerRestoration (3.2s)
+✔ [4171/4600] Built OAI.NumberTheory.DirichletL.CubicSieve.Operator (2.5s)
+✔ [4172/4601] Built OAI.NumberTheory.DirichletL.Hecke.FiniteEulerFactors (5.4s)
+✔ [4173/4601] Built OAI.NumberTheory.DirichletL.GaussSum.SecondPoissonScale (7.7s)
+✔ [4174/4605] Built OAI.NumberTheory.DirichletL.CubicSieve.Blocks (2.0s)
+✔ [4175/4605] Built OAI.NumberTheory.DirichletL.Descent.Marks (1.5s)
+✔ [4176/4607] Built OAI.NumberTheory.DirichletL.Mellin.CompactScale (5.6s)
+✔ [4177/4607] Built OAI.NumberTheory.DirichletL.Descent.Overlap (1.6s)
+✔ [4178/4609] Built OAI.NumberTheory.DirichletL.Poisson.EisensteinLattice (4.8s)
+✔ [4179/4632] Built OAI.NumberTheory.DirichletL.Mellin.CompactWeights (4.0s)
+✔ [4180/4633] Built OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson (4.7s)
+✔ [4181/4633] Built OAI.NumberTheory.DirichletL.PeriodicThetaRegularity (2.1s)
+✔ [4182/4633] Built OAI.NumberTheory.DirichletL.PrimeRows.IdealGenerators (3.6s)
+✔ [4183/4720] Built OAI.NumberTheory.DirichletL.Poisson.RadialFourier (4.7s)
+✔ [4215/4818] Built OAI.NumberTheory.DirichletL.PrimeRows.ActiveGaussFactorization (4.6s)
+✔ [4216/4818] Built OAI.NumberTheory.DirichletL.LogarithmicControl (3.5s)
+✔ [4217/4825] Built OAI.NumberTheory.DirichletL.GaussSum.ActiveConductor (4.1s)
+✔ [4218/4831] Built OAI.NumberTheory.DirichletL.GaussSum.CubicTrace (6.1s)
+✔ [4219/4836] Built OAI.NumberTheory.DirichletL.Detector (2.3s)
+✔ [4220/4973] Built OAI.NumberTheory.DirichletL.GaussSum.SquarePhaseFactorization (3.7s)
+✔ [4221/5146] Built OAI.NumberTheory.DirichletL.GaussSum.MixedConversion (4.9s)
+✔ [4222/5155] Built OAI.NumberTheory.DirichletL.Detector.Euler (2.1s)
+✔ [4223/5155] Built OAI.NumberTheory.DirichletL.Detector.Local (1.3s)
+✔ [4224/5156] Built OAI.NumberTheory.DirichletL.QuadraticSieve.CrossSeparation (3.8s)
+✔ [4225/5215] Built OAI.NumberTheory.DirichletL.Detector.CorrectionBounds (2.2s)
+✔ [4226/5219] Built OAI.NumberTheory.DirichletL.ContinuationInversion (1.9s)
+✔ [4227/5219] Built OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius (3.5s)
+✔ [4228/5225] Built OAI.NumberTheory.DirichletL.ContinuationContour (1.7s)
+✔ [4229/5225] Built OAI.NumberTheory.DirichletL.Reciprocity.CubicJacobi (4.0s)
+✔ [4230/5262] Built OAI.NumberTheory.DirichletL.ContinuationPolynomialContour (2.7s)
+✔ [4231/5264] Built OAI.NumberTheory.DirichletL.GaussSum.CompletedExpansion (7.6s)
+✔ [4232/5373] Built OAI.NumberTheory.DirichletL.Detector.NormalProduct (1.8s)
+✔ [4233/5428] Built OAI.NumberTheory.DirichletL.ContinuationShiftedGaussian (1.9s)
+✔ [4234/5466] Built OAI.NumberTheory.DirichletL.Detector.Basic (1.3s)
+✔ [4235/5466] Built OAI.NumberTheory.DirichletL.GaussSum.RayCharacters (4.3s)
+✔ [4236/5466] Built OAI.NumberTheory.DirichletL.Parameters (1.4s)
+✔ [4237/5466] Built OAI.NumberTheory.DirichletL.ParametersSlotLengths (2.1s)
+✔ [4238/5466] Built OAI.NumberTheory.DirichletL.QuadraticSieve.CoefficientCancellation (4.3s)
+✔ [4239/5466] Built OAI.NumberTheory.DirichletL.ParametersDetectorScales (4.7s)
+✔ [4240/5466] Built OAI.NumberTheory.DirichletL.QuadraticSieve.InitialBound (6.3s)
+✔ [4241/5466] Built OAI.NumberTheory.DirichletL.ParametersCentralBudget (3.0s)
+✔ [4242/5526] Built OAI.NumberTheory.DirichletL.ParametersHighData (2.5s)
+✔ [4244/5526] Built OAI.NumberTheory.DirichletL.Mellin.ReflectedKernel (3.9s)
+✔ [4245/5531] Built OAI.NumberTheory.DirichletL.Descent.LocalReflection (1.7s)
+✔ [4246/5563] Built OAI.NumberTheory.DirichletL.Descent.Fibers (1.4s)
+✔ [4247/5566] Built OAI.NumberTheory.DirichletL.Arithmetic.SquarefreeDivisors (3.6s)
+✔ [4248/5566] Built OAI.NumberTheory.DirichletL.Descent.SieveComposition (1.6s)
+✔ [4249/5601] Built OAI.NumberTheory.DirichletL.QuadraticSieve.FiniteOperator (5.8s)
+✔ [4250/5614] Built OAI.NumberTheory.DirichletL.CubicSieve.CubeLabels (6.7s)
+✔ [4251/5614] Built OAI.NumberTheory.DirichletL.CubicDyadicDecay (4.6s)
+✔ [4252/5637] Built OAI.NumberTheory.DirichletL.HeathBrownIteration (1.3s)
+✔ [4253/5637] Built OAI.NumberTheory.DirichletL.QuadraticSieve.MainTermDifference (5.4s)
+✔ [4254/5829] Built OAI.NumberTheory.DirichletL.Descent.Basic (1.4s)
+✔ [4255/5829] Built OAI.NumberTheory.DirichletL.Detector.GramCommonParam (1.9s)
+✔ [4256/5841] Built OAI.NumberTheory.DirichletL.Mellin.InverseContour (4.6s)
+✔ [4257/5841] Built OAI.NumberTheory.DirichletL.Detector.GramCommonLinear (1.7s)
+✔ [4258/5949] Built OAI.NumberTheory.DirichletL.Detector.GramCommonSum (1.5s)
+✔ [4259/6137] Built OAI.NumberTheory.DirichletL.Endpoint (1.8s)
+✔ [4260/6434] Built OAI.NumberTheory.DirichletL.Mellin.UniformKernelBounds (4.3s)
+✔ [4261/6434] Built OAI.NumberTheory.DirichletL.ParametersHighDataFine (2.0s)
+✔ [4262/6551] Built OAI.NumberTheory.DirichletL.Descent.SlotAssignments (1.2s)
+✔ [4264/7061] Built OAI.NumberTheory.DirichletL.Inversion.InitialMarkedReserve (1.1s)
+✔ [4265/7061] Built OAI.NumberTheory.DirichletL.CubicSieve.CrossFactorization (3.9s)
+✔ [4266/7061] Built OAI.NumberTheory.DirichletL.QuadraticSieve.CoprimeBilinearBound (4.9s)
+✔ [4267/7061] Built OAI.NumberTheory.DirichletL.CubicSieve.LocalBrackets (5.4s)
+✔ [4268/7061] Built OAI.NumberTheory.DirichletL.CubicSieve.RayExpansion (4.5s)
+✔ [4269/7061] Built OAI.NumberTheory.DirichletL.GaussSum.ReflectionBrackets (8.6s)
+✔ [4270/7061] Built OAI.NumberTheory.DirichletL.QuadraticSieve.IdealQuotients (4.7s)
+✔ [4271/7061] Built OAI.NumberTheory.DirichletL.Reciprocity.RamifiedSymbol (11s)
+✔ [4272/7061] Built OAI.NumberTheory.DirichletL.QuadraticSieve.DivisorBlocks (9.3s)
+✔ [4273/7061] Built OAI.NumberTheory.DirichletL.CubicSieve.KernelEnergy (4.7s)

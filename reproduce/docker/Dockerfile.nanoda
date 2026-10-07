@@ -1,0 +1,18 @@
+# Adds nanoda (an independent Lean 4 kernel written in Rust) to the checking image, root-owned.
+FROM public.ecr.aws/docker/library/rust:1 AS nanoda
+ARG NANODA_COMMIT=3a2407216ee84a75f9e1aead6803d0578be06ae7
+RUN git clone https://github.com/ammkrn/nanoda_lib.git /src/nanoda_lib \
+ && cd /src/nanoda_lib \
+ && git checkout --detach "${NANODA_COMMIT}" \
+ && test "$(git rev-parse HEAD)" = "${NANODA_COMMIT}" \
+ && test "$(git rev-parse origin/master)" = "${NANODA_COMMIT}" \
+ && rustc --version && cargo --version \
+ && cargo build --release --locked
+
+FROM qrh-verify:1
+USER root
+COPY --from=nanoda /src/nanoda_lib/target/release/nanoda_bin /usr/local/bin/nanoda_bin
+RUN chown root:root /usr/local/bin/nanoda_bin && chmod 0755 /usr/local/bin/nanoda_bin \
+ && ldd /usr/local/bin/nanoda_bin
+USER verifier
+WORKDIR /home/verifier/work

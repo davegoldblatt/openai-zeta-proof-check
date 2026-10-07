@@ -1,0 +1,26 @@
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+⚠ [8924/8924] Built ComparatorChallenges.QuasiRiemannHypothesis (79s)
+warning: ComparatorChallenges/QuasiRiemannHypothesis.lean:5:8: declaration uses `sorry`
+Build completed successfully (8924 jobs).

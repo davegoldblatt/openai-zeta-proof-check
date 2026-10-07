@@ -1,0 +1,89 @@
+== top-level entries of every build lib dir (before any proof build):
+.lake/packages/LeanSearchClient/.lake/build/lib/lean: LeanSearchClient LeanSearchClient.ilean LeanSearchClient.ir LeanSearchClient.ir.sig LeanSearchClient.olean LeanSearchClient.olean.private LeanSearchClient.olean.server 
+.lake/packages/Qq/.lake/build/lib/lean: Qq Qq.ilean Qq.ir Qq.ir.sig Qq.olean Qq.olean.private Qq.olean.server 
+.lake/packages/aesop/.lake/build/lib/lean: Aesop Aesop.ilean Aesop.ir Aesop.ir.sig Aesop.olean Aesop.olean.private Aesop.olean.server 
+.lake/packages/batteries/.lake/build/lib/lean: Batteries Batteries.ilean Batteries.ir Batteries.ir.sig Batteries.olean Batteries.olean.private Batteries.olean.server 
+.lake/packages/importGraph/.lake/build/lib/lean: ImportGraph 
+.lake/packages/mathlib/.lake/build/lib/lean: Cache Mathlib Mathlib.ilean Mathlib.ir Mathlib.ir.sig Mathlib.olean Mathlib.olean.private Mathlib.olean.server 
+.lake/packages/plausible/.lake/build/lib/lean: Plausible Plausible.ilean Plausible.ir Plausible.ir.sig Plausible.olean Plausible.olean.private Plausible.olean.server 
+.lake/packages/proofwidgets/.lake/build/lib/lean: ProofWidgets 
+.lake/build/lib/lean: ComparatorChallenges 
+== lake env PATH:
+/home/verifier/work/openai-math/lean/.lake/packages/MD4Lean/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/BibtexQuery/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/UnicodeBasic/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/Cli/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/leansqlite/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/batteries/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/Qq/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/aesop/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/proofwidgets/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/importGraph/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/LeanSearchClient/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/plausible/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/carleson/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/TauCeti/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/gromov/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/iut/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/genl/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/heights/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/pi1/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/oka/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/belyi/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/leancert/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/LeanArchitect/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/PrimeCert/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/doc-gen4/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/checkdecls/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/packages/mathlib/.lake/build/bin
+/home/verifier/work/openai-math/lean/.lake/build/bin
+/opt/elan/toolchains/leanprover--lean4---v4.34.1/bin
+/opt/elan/toolchains/leanprover--lean4---v4.34.1/bin
+/usr/local/go/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+== challenge export:
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+77de9a7a4108523837952731303a1ad4148fa54dfcb6644e8c2a1c608885e365  /home/verifier/work/evidence/challenge-export.oai.ndjson
+  6423154 347133732 /home/verifier/work/evidence/challenge-export.oai.ndjson

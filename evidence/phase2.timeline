@@ -1,0 +1,4 @@
+[2026-10-06T23:27:20Z] run=run1 comparator start threads=2
+[2026-10-06T23:34:02Z] run=run1 paused for Docker memory restart
+[2026-10-06T23:35:16Z] run=run2 comparator start threads=4
+[2026-10-07T00:43:01Z] run=run2 comparator exit=0

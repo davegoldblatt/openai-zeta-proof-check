@@ -1,0 +1,8 @@
+# Runtime configuration, recorded during the session
+run2 container (docker inspect at start, 23:35): mem=17179869184 memswap=21474836480 net=none user=verifier
+run1 container: started with --memory 5g --memory-swap 6g --network none (cgroup memory.peak reached exactly 5368709120 = 5 GiB)
+ Kernel Version: 6.12.76-linuxkit
+ Operating System: Docker Desktop
+ Total Memory: 19.5GiB
+mem=18253611008 memswap=22548578304 net=none user=verifier image=qrh-verify:2
+after update: mem=17179869184 memswap=21474836480

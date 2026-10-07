@@ -1,0 +1,10 @@
+LeanArchitect: lakefile.lean :: 90:open IO.Process in 
+MD4Lean: lakefile.lean :: 48:  precompileModules := true 
+UnicodeBasic: lakefile.lean :: 13:  precompileModules := true 28:extern_lib libunicodeclib := UnicodeCLib.fetch 
+Zeta3Irrational: lakefile.lean :: no code-execution hooks found
+checkdecls: lakefile.lean :: no code-execution hooks found
+doc-gen4: lakefile.lean :: 33:  let out ← IO.Process.output { 52:  let out ← IO.Process.output { 67:  let out ← IO.Process.output { 234:        IO.FS.writeFile markerFile "" 283:              IO.FS.writeFile markerFile "" 327:        IO.FS.writeFile markerFile "" 385:            IO.FS.writeFile markerFile "" 
+leansqlite: lakefile.lean :: 57:extern_lib leansqlite pkg := do 67:  -- Needed to interpret `@[extern]` symbols defined in `SQLite.FFI`. 68:  precompileModules := true 75:  let child ← IO.Process.spawn { 
+mathlib: lakefile.lean :: 73:  -- weakLeanArgs := #[] 179:post_update pkg do 201:    let cwd ← IO.Process.getCurrentDir 203:      IO.Process.setCurrentDir rootPkg.dir 206:      IO.Process.setCurrentDir cwd 
+proofwidgets: lakefile.lean :: no code-execution hooks found
+rellich-kondrachov: lakefile.lean :: no code-execution hooks found

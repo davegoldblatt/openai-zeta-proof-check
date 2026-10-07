@@ -1,0 +1,134 @@
+== package checkouts vs manifest (HEAD, origin, dirty files)
+mathlib                        head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/mathlib4.git
+checkdecls                     head_ok=True dirty_tracked_files=0     origin=https://github.com/PatrickMassot/checkdecls.git
+«doc-gen4»                     head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover/doc-gen4.git
+PrimeCert                      head_ok=True dirty_tracked_files=0     origin=https://github.com/b-mehta/PrimeCert.git
+LeanArchitect                  head_ok=True dirty_tracked_files=0     origin=https://github.com/hanwenzhu/LeanArchitect.git
+leancert                       head_ok=True dirty_tracked_files=0     origin=https://github.com/alerad/leancert.git
+PrimeNumberTheoremAnd          head_ok=True dirty_tracked_files=8     origin=https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git
+belyi                          head_ok=True dirty_tracked_files=15    origin=https://github.com/lana-agents/belyi.git
+«formal-schemes»               head_ok=True dirty_tracked_files=5     origin=https://github.com/lana-agents/formal-schemes.git
+«elliptic-curves»              head_ok=True dirty_tracked_files=22    origin=https://github.com/lana-agents/elliptic-curves.git
+«tempered-fundamental-groups»  head_ok=True dirty_tracked_files=6     origin=https://github.com/lana-agents/tempered-fundamental-groups.git
+oka                            head_ok=True dirty_tracked_files=87    origin=https://github.com/lana-agents/oka.git
+«orbicurve-cores»              head_ok=True dirty_tracked_files=26    origin=https://github.com/lana-agents/orbicurve-cores.git
+pi1                            head_ok=True dirty_tracked_files=19    origin=https://github.com/lana-agents/pi1.git
+heights                        head_ok=True dirty_tracked_files=17    origin=https://github.com/lana-agents/heights.git
+genl                           head_ok=True dirty_tracked_files=3     origin=https://github.com/lana-agents/genl.git
+«tate-curves-theta»            head_ok=True dirty_tracked_files=3     origin=https://github.com/lana-agents/tate-curves-theta.git
+iut                            head_ok=True dirty_tracked_files=29    origin=https://github.com/lana-agents/iut.git
+gromov                         head_ok=True dirty_tracked_files=62    origin=https://github.com/Aaron1011/gromov.git
+TauCeti                        head_ok=True dirty_tracked_files=0     origin=https://github.com/TauCetiProject/TauCeti.git
+SphereEversion                 head_ok=True dirty_tracked_files=2     origin=https://github.com/leanprover-community/sphere-eversion.git
+«schoenflies-lean»             head_ok=True dirty_tracked_files=68    origin=https://github.com/alonamaloh/schoenflies-lean
+ClassFieldTheory               head_ok=True dirty_tracked_files=28    origin=https://github.com/n-yamaguchi-0729/ClassFieldTheory.git
+AINTLIB                        head_ok=True dirty_tracked_files=155   origin=https://github.com/CBirkbeck/AINTLIB.git
+AbsorptionCutoff               head_ok=True dirty_tracked_files=4     origin=https://github.com/BennyAvelin/AbsorptionCutoff.git
+StrongPNT                      head_ok=True dirty_tracked_files=2     origin=https://github.com/math-inc/strongpnt.git
+carleson                       head_ok=True dirty_tracked_files=29    origin=https://github.com/fpvandoorn/carleson.git
+«rellich-kondrachov»           head_ok=True dirty_tracked_files=15    origin=https://github.com/abenenson/rellich-kondrachov.git
+Zeta3Irrational                head_ok=True dirty_tracked_files=10    origin=https://github.com/ahhwuhu/zeta_3_irrational.git
+«fixed-point-theorems»         head_ok=True dirty_tracked_files=7     origin=https://github.com/harfe/fixed-point-theorems-lean4.git
+plausible                      head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/plausible
+LeanSearchClient               head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/LeanSearchClient
+importGraph                    head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/import-graph
+proofwidgets                   head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/ProofWidgets4
+aesop                          head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/aesop
+Qq                             head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/quote4
+batteries                      head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover-community/batteries
+leansqlite                     head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover/leansqlite
+Cli                            head_ok=True dirty_tracked_files=0     origin=https://github.com/leanprover/lean4-cli
+UnicodeBasic                   head_ok=True dirty_tracked_files=0     origin=https://github.com/fgdorais/lean4-unicode-basic
+BibtexQuery                    head_ok=True dirty_tracked_files=0     origin=https://github.com/dupuisf/BibtexQuery
+MD4Lean                        head_ok=True dirty_tracked_files=0     origin=https://github.com/acmepjz/md4lean
+== Mathlib and its own dependencies must be pristine
+mathlib: HEAD=d13f23b723b8a846827a245b89c10fc7d3f11612 tag=v4.34.1 status=[clean]
+batteries: HEAD=f2effa3d803fda822b1f97b806c47cf2adfbcbc2 tag=v4.34.0 status=[clean]
+aesop: HEAD=355695d523e41d0554926416cba2a2b3544fbbc9 tag=v4.34.0 status=[clean]
+Qq: HEAD=6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259 tag=v4.34.0 status=[clean]
+proofwidgets: HEAD=106ff4fafc74ef4ac99d81dbf3ab399118f497a5 tag=v0.0.111 status=[clean]
+importGraph: HEAD=e928b72544873815af278d38681b31c0293588e3 tag=v4.34.0 status=[clean]
+LeanSearchClient: HEAD=ddf04cf3949fa556442341e87d47f9f6e6074707 tag=v4.34.0 status=[clean]
+plausible: HEAD=118aa17ee84656b8bd727fef7c458ee8c833385c tag=v4.34.0 status=[clean]
+Cli: HEAD=e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204 tag=v4.34.0 status=[clean]
+== which packages ship executable lakefile.lean configs
+LeanArchitect: lakefile.lean :: 90:open IO.Process in 
+MD4Lean: lakefile.lean :: 48:  precompileModules := true 
+UnicodeBasic: lakefile.lean :: 13:  precompileModules := true 28:extern_lib libunicodeclib := UnicodeCLib.fetch 
+Zeta3Irrational: lakefile.lean :: no code-execution hooks found
+checkdecls: lakefile.lean :: no code-execution hooks found
+doc-gen4: lakefile.lean :: 33:  let out ← IO.Process.output { 52:  let out ← IO.Process.output { 67:  let out ← IO.Process.output { 234:        IO.FS.writeFile markerFile "" 283:              IO.FS.writeFile markerFile "" 327:        IO.FS.writeFile markerFile "" 385:            IO.FS.writeFile markerFile "" 
+leansqlite: lakefile.lean :: 57:extern_lib leansqlite pkg := do 67:  -- Needed to interpret `@[extern]` symbols defined in `SQLite.FFI`. 68:  precompileModules := true 75:  let child ← IO.Process.spawn { 
+mathlib: lakefile.lean :: 73:  -- weakLeanArgs := #[] 179:post_update pkg do 201:    let cwd ← IO.Process.getCurrentDir 203:      IO.Process.setCurrentDir rootPkg.dir 206:      IO.Process.setCurrentDir cwd 
+proofwidgets: lakefile.lean :: no code-execution hooks found
+rellich-kondrachov: lakefile.lean :: no code-execution hooks found
+== modules named Mathlib.* (or other Mathlib-dependency roots) provided outside their home package
+shadowing check done (0 findings)
+== challenge import closure as built
+warning: PrimeNumberTheoremAnd: repository '/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository '/home/verifier/work/openai-math/lean/.lake/packages/belyi' has local changes
+warning: formal-schemes: repository '/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes' has local changes
+warning: elliptic-curves: repository '/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository '/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups' has local changes
+warning: oka: repository '/home/verifier/work/openai-math/lean/.lake/packages/oka' has local changes
+warning: orbicurve-cores: repository '/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores' has local changes
+warning: pi1: repository '/home/verifier/work/openai-math/lean/.lake/packages/pi1' has local changes
+warning: heights: repository '/home/verifier/work/openai-math/lean/.lake/packages/heights' has local changes
+warning: genl: repository '/home/verifier/work/openai-math/lean/.lake/packages/genl' has local changes
+warning: tate-curves-theta: repository '/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta' has local changes
+warning: iut: repository '/home/verifier/work/openai-math/lean/.lake/packages/iut' has local changes
+warning: gromov: repository '/home/verifier/work/openai-math/lean/.lake/packages/gromov' has local changes
+warning: SphereEversion: repository '/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion' has local changes
+warning: schoenflies-lean: repository '/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository '/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory' has local changes
+warning: AINTLIB: repository '/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB' has local changes
+warning: AbsorptionCutoff: repository '/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff' has local changes
+warning: StrongPNT: repository '/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT' has local changes
+warning: carleson: repository '/home/verifier/work/openai-math/lean/.lake/packages/carleson' has local changes
+warning: rellich-kondrachov: repository '/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository '/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository '/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems' has local changes
+/home/verifier/work/openai-math/lean/.lake/packages/MD4Lean/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/BibtexQuery/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/UnicodeBasic/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/Cli/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/leansqlite/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/batteries/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/Qq/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/aesop/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/proofwidgets/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/importGraph/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/plausible/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/fixed-point-theorems/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/Zeta3Irrational/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/rellich-kondrachov/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/carleson/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/StrongPNT/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/AbsorptionCutoff/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/AINTLIB/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/ClassFieldTheory/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/schoenflies-lean/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/SphereEversion/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/TauCeti/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/gromov/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/iut/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/tate-curves-theta/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/genl/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/heights/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/pi1/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/orbicurve-cores/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/oka/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/tempered-fundamental-groups/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/elliptic-curves/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/formal-schemes/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/belyi/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/PrimeNumberTheoremAnd/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/leancert/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/LeanArchitect/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/PrimeCert/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/doc-gen4/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/checkdecls/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/packages/mathlib/.lake/build/lib/lean
+/home/verifier/work/openai-math/lean/.lake/build/lib/lean
+/opt/elan/toolchains/leanprover--lean4---v4.34.1/lib/lean
