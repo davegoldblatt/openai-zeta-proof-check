@@ -90,3 +90,8 @@ To reproduce: [reproduce/RUNBOOK.md](reproduce/RUNBOOK.md). Raw logs: [evidence/
 
 The check was carried out by Claude Code, Anthropic's coding agent, on the repository owner's machine at the
 owner's request, 2026-10-06 to 2026-10-07 (UTC).
+
+## License
+
+Everything here, the scripts, the logs and the documents, is released under the MIT License ([LICENSE](LICENSE)).
+Reuse it freely with attribution.

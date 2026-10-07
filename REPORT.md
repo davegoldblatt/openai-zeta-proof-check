@@ -58,6 +58,11 @@ Axioms and statement (`evidence/AxiomCheck.lean`, `evidence/axioms.log`, `eviden
   uses were compiled locally (`evidence/lake-update.log`).
 - All 42 dependency checkouts were at their manifest commits (`evidence/packages-state.txt`). `lake update` left
   `lake-manifest.json` unchanged (`evidence/phase1.timeline`).
+- Module shadowing: no package outside Mathlib's own dependency set, and not the root package, provides a module
+  root named `Mathlib`, `Batteries`, `Aesop`, `Qq`, `ProofWidgets`, `ImportGraph`, `LeanSearchClient`, `Plausible`
+  or `Cli` (`evidence/phase1b.log`: `shadowing check done (0 findings)`). `evidence/shadowing.txt` from this run is
+  empty because the script, as run, wrote only findings. It is left as recorded. The script now writes an explicit
+  `NO FINDINGS` line instead, so a rerun produces a non-empty file.
 
 ## Tools
 

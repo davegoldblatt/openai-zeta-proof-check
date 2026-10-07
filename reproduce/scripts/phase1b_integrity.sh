@@ -40,17 +40,26 @@ for d in "$PKG"/*/; do
 done | tee "$OUT/lakefiles.txt"
 
 echo "== modules named Mathlib.* (or other Mathlib-dependency roots) provided outside their home package"
-for d in "$PKG"/*/; do
-  n=$(basename "$d")
-  case "$n" in mathlib|batteries|aesop|Qq|proofwidgets|importGraph|LeanSearchClient|plausible|Cli) continue;; esac
-  for root in Mathlib Batteries Aesop Qq ProofWidgets ImportGraph LeanSearchClient Plausible Cli; do
-    if [ -e "$d/$root.lean" ] || [ -d "$d/$root" ]; then echo "SHADOW RISK: $n provides $root"; fi
+ROOTS="Mathlib Batteries Aesop Qq ProofWidgets ImportGraph LeanSearchClient Plausible Cli"
+{
+  for d in "$PKG"/*/; do
+    n=$(basename "$d")
+    case "$n" in mathlib|batteries|aesop|Qq|proofwidgets|importGraph|LeanSearchClient|plausible|Cli) continue;; esac
+    for root in $ROOTS; do
+      if [ -e "$d/$root.lean" ] || [ -d "$d/$root" ]; then echo "SHADOW RISK: $n provides $root"; fi
+    done
   done
-done | tee "$OUT/shadowing.txt"
-for root in Mathlib Batteries Aesop Qq ProofWidgets ImportGraph LeanSearchClient Plausible Cli; do
-  if [ -e "$root.lean" ] || [ -d "$root" ]; then echo "SHADOW RISK: root package provides $root"; fi
-done | tee -a "$OUT/shadowing.txt"
-echo "shadowing check done ($(wc -l < "$OUT/shadowing.txt") findings)"
+  for root in $ROOTS; do
+    if [ -e "$root.lean" ] || [ -d "$root" ]; then echo "SHADOW RISK: root package provides $root"; fi
+  done
+} > "$OUT/shadowing.txt"
+findings=$(grep -c '^SHADOW RISK' "$OUT/shadowing.txt")
+if [ "$findings" -eq 0 ]; then
+  # Write an explicit line so the evidence file is never empty.
+  echo "NO FINDINGS: no package outside Mathlib's own dependency set, and not the root package, provides a module root named $(echo "$ROOTS" | sed 's/ /, /g')" >> "$OUT/shadowing.txt"
+fi
+cat "$OUT/shadowing.txt"
+echo "shadowing check done ($findings findings)"
 
 echo "== challenge import closure as built"
 lake env printenv LEAN_PATH | tr ':' '\n' | tee "$OUT/lean-path.txt"
