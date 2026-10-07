@@ -1,5 +1,29 @@
 # Independent check of OpenAI's Lean proof that ζ(s) ≠ 0 for Re(s) > 7/8
 
+## In plain English
+
+OpenAI published a computer-checked proof about the Riemann zeta function, a central object in number
+theory. The proof says the function has no zeros whose real part is greater than 7/8. The famous Riemann
+Hypothesis says all its nontrivial zeros have real part exactly 1/2. Mathematicians proved long ago that there
+are none with real part 1 or more. As far as we know, no strip to the left of 1 had been ruled out before
+OpenAI's work on this problem. If correct, this result rules out the strip between 7/8 and 1. That is a real
+step toward the Riemann Hypothesis, though far from a proof of it, and it sharpens what can be proven about how
+the prime numbers are spread out.
+
+The proof is written in Lean, a programming language for mathematics. In Lean, a small trusted program called
+the kernel checks every logical step. OpenAI's proof is large: about 2,900 files and 486,000 lines.
+
+We re-ran the official check from OpenAI's public code, on our own machine. Lean's checker accepted the proof.
+We then wrote our own copy of the statement, to confirm the proof proves exactly what it claims, and had a
+second, independently written checker go through every step. Both checkers accepted it. The proof relies only on
+the three standard axioms that ordinary mathematics in Lean uses, and on no shortcuts that skip checking.
+
+What this means: unless both checkers have the same bug, the statement as written in Lean's standard math
+library is proven. What it does not mean: this is not a review of OpenAI's accompanying paper, and it was run by one
+operator on one machine, so independent reproductions would add weight.
+
+## The details
+
 This repository records an independent re-run of the Lean check for this theorem from
 [openai/math](https://github.com/openai/math) at commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`
 (Lean v4.34.1, Mathlib v4.34.1):
