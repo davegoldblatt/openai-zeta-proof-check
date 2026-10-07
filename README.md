@@ -5,7 +5,7 @@
 OpenAI recently published a proof, produced with one of its AI models, of something mathematicians have been
 stuck on for over a century. We wanted to know whether it actually holds up, so we checked it ourselves.
 
-Some background. The Riemann zeta function is one of the most important objects in math, mostly because it
+Some background: The Riemann zeta function is one of the most important objects in math, mostly because it
 quietly encodes how the prime numbers are spread out. The Riemann Hypothesis, one of the most famous unsolved
 problems anywhere, says all of the function's interesting zeros sit on a single line, at real part 1/2. Nobody
 has proven that. For over 100 years, the best anyone managed was to rule out zeros at real part 1 and in a
